@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Normal script inject</title>
+</head>
+<body>
+  <script src='./lib/a-global.js'></script>
+  <script src='./lib/b-global.js'></script>
+  <script src='./lib/c-global.js'></script>
+  <script src='./lib/d-global.js'></script>
+  <script src='./lib/e-global.js'></script>
+  <script src='./lib/f-global.js'></script>
+  <script src='./lib/g-global.js'></script>
+  <script src='./lib/h-global.js'></script>
+  <script src='./lib/i-global.js'></script>
+  <script src='./lib/j-global.js'></script>
+  <script src='./lib/k-global.js'></script>
+  <script src='./lib/l-global.js'></script>
+  <script src='./lib/m-global.js'></script>
+  <script src='./lib/n-global.js'></script>
+  <script src='./lib/o-global.js'></script>
+  <script src='./lib/p-global.js'></script>
+  <script src='./lib/q-global.js'></script>
+  <script src='./lib/r-global.js'></script>
+  <script src='./lib/s-global.js'></script>
+  <script src='./lib/t-global.js'></script>
+  <script src='./lib/u-global.js'></script>
+  <script src='./lib/v-global.js'></script>
+  <script src='./lib/w-global.js'></script>
+  <script src='./lib/x-global.js'></script>
+  <script src='./lib/y-global.js'></script>
+  <script src='./lib/z-global.js'></script>
+  <script>
+    console.log(
+      a,
+      b,
+      c,
+      d,
+      e,
+      f,
+      g,
+      h,
+      i,
+      j,
+      k,
+      l,
+      m,
+      n,
+      o,
+      p,
+      q,
+      r,
+      s,
+      t,
+      u,
+      v,
+      w,
+      x,
+      y,
+      z,
+    )
+  </script>
+  <script>
+    const time = Date.now()
+    window.onload = function() {
+      document.body.innerHTML = `${Date.now() - time}ms`
+    }
+  </script>
+</body>
+</html>
