@@ -4,5 +4,5 @@ This simple test was made to check the performance cost of the [javascript nativ
 
 ## Demos
 
-- [Page with native javascript modules](index-native.html)
-- [Page with the same javascript code bundled in one file](index-bundle.html)
+- [Page with native javascript modules](http://gianlucaguarini.com/the-cost-of-native-javascript-modules/index-native.html)
+- [Page with the same javascript code bundled in one file](http://gianlucaguarini.com/the-cost-of-native-javascript-modules/index-bundle.html)
